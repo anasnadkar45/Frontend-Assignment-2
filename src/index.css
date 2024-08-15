@@ -9,11 +9,24 @@
 
   color-scheme: light dark;
   color: rgba(0, 0, 0, 0.87);
-  background-color: #f0f5fa
-  ;
+  background-color: #e5f2fe;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.btn {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+  border: solid 2px #ababab59;
+  border-radius: 0.5rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  width: fit-content;
+  text-align: center;
 }
