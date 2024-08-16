@@ -26,8 +26,8 @@ const Navbar = () => {
                     <input
                         type="text"
                         placeholder="Search widgets..."
-                        value={searchQuery}
-                        onChange={(e) => setSearchQuery(e.target.value)}
+                        // value={searchItem}
+                        // onChange={handleSearch}
                         className="py-[2px] px-8 w-[250px] md:w-[300px] focus:outline-none bg-[#e5f2fe] border border-[#b5dbff] rounded"
                     />
                 </div>
